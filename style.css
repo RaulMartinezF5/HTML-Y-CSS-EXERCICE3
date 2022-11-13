@@ -10,7 +10,7 @@
     color: rgb(0, 0, 0);
    }
    .image{
-     background-image: url(./acess/img/image.jpg);
+     background-image: url(./acces/image.jpg);
      background-size: cover; 
      background-repeat: no-repeat;
      height: 100vh;
