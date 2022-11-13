@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+   }
+   
+   h1{
+    font-size: 50px;  
+    padding-top: 15px; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+   }
+   .image{
+     background-image: url(./acess/img/image.jpg);
+     background-size: cover; 
+     background-repeat: no-repeat;
+     height: 100vh;
+   }
+   
+   .grid-container{
+     max-width: 700px;
+     height: 300px;
+     padding: 30px 175px;
+     display: grid;
+     margin: 0% auto;
+     grid-template-columns: auto auto auto auto auto auto;
+     grid-template-rows: auto auto auto auto;
+   }
+   
+   .grid-item-1{
+       background-color: green;
+       text-align: center;
+       grid-column-start: 1;
+       grid-column-end: 7; 
+   }
+   
+   .grid-item-2{
+       background-color: black;
+       grid-column-start: 1;
+       grid-column-end: 2; 
+   }
+   .grid-item-3{
+       background-color: teal;
+       grid-column-start: 2;
+       grid-column-end: 3; 
+   }
+   .grid-item-4{
+       background-color: blue;
+       grid-column-start: 3;
+       grid-column-end: 4; 
+   }
+   .grid-item-5{
+       background-color: navy;
+       grid-column-start: 4;
+       grid-column-end: 5; 
+   }
+   .grid-item-6{
+       background-color: lime;
+       grid-column-start: 5;
+       grid-column-end: 6; 
+   }
+   .grid-item-7{
+       background-color: white;
+       grid-column-start: 6;
+       grid-column-end: 7; 
+   }
+   .grid-item-8{
+       background-color: purple;
+       grid-column-start: 1;
+       grid-column-end: 2; 
+   }
+   .grid-item-9{
+       background-color: yellow;
+       grid-column-start: 2;
+       grid-column-end: 3; 
+   }
+   .grid-item-10{
+       background-color:olive;
+       grid-column-start: 3;
+       grid-column-end: 4; 
+   }
+   .grid-item-11{
+       background-color: red;
+       grid-column-start: 4;
+       grid-column-end: 5; 
+   }
+   .grid-item-12{
+       background-color: black;
+       grid-column-start: 5;
+       grid-column-end: 6; 
+   }
+   .grid-item-13{
+       background-color:grey;
+       grid-column-start: 6;
+       grid-column-end: 7; 
+   }
+   .grid-item-14{
+       background-color: olive;
+       grid-column-start: 1;
+       grid-column-end: 2; 
+   }
+   .grid-item-15{
+       background-color: red;
+       grid-column-start: 2;
+       grid-column-end: 3; 
+   }
+   .grid-item-16{
+       background-color:fuchsia;
+       grid-column-start: 3;
+       grid-column-end: 4; 
+   }
+   .grid-item-17{
+       background-color: green;
+       grid-column-start: 4;
+       grid-column-end: 7; 
+   }
+   h2{
+       padding-top: 1px;
+    font-size: 50px;   
+    color: rgb(0, 0, 0);
+    text-align: center;
+   }
+   .text-container{
+       text-align: center;
+       grid-template-columns: auto auto auto auto auto auto auto auto;
+       grid-template-rows: auto auto;
+       margin: 0% auto;
+       max-width: 700px;
+       height: 130px;
+       padding: 30px 175px;
+       display: grid;
+   }
+   .black{
+       color: black;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .teal{
+      color: teal;
+       font-size: 30px;
+       font-weight: bold; 
+   }
+   .blue{
+       color: blue;
+       font-size: 30px;
+       font-weight: bold;   
+   }
+   .navy{
+       color: navy;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .lime{
+       color: lime;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .white{
+       color: white;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .purple{
+       color: purple;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .yellow{
+       color: yellow;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .olive{
+       color: olive;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .red{
+       color: red;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .brown{
+       color: rgb(142, 80, 42);
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .grey{
+       color: gray;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .fuchsia{
+       color: fuchsia;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .green{
+       color: green;
+       font-size: 30px;
+       font-weight: bold;
+   }
+   .aqua{
+       color: aqua;
+       font-size: 30px;
+       font-weight: bold; 
+   }
+   .silver{
+       color: silver;
+       font-size: 30px;
+       font-weight: bold;
+    }     
